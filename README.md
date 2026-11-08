@@ -5,10 +5,13 @@ The objective of this assignment is to implement, evaluate, and deploy five dist
 
 ## b. Dataset Description
 - **Dataset Name:** Breast Cancer Wisconsin (Diagnostic) Dataset
-- **Source:** UCI Machine Learning Repository / Scikit-learn datasets
+- **Source:** https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset
+- **URL:** [https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data]
 - **Task:** Binary Classification (Benign vs. Malignant)
 - **Instances:** 569 samples (Exceeds minimum requirement of 500)
 - **Features:** 30 numerical features computed from digitized images of fine needle aspirates (Exceeds minimum requirement of 12 features)
+- **Test Data Download Link:**
+[Download test_data.csv](https://raw.githubusercontent.com/OshankKarn/ML-Assignment-2-Project/refs/heads/main/test_data.csv)
 
 ## c. GitHub Repository Link
 [https://github.com/OshankKarn/ML-Assignment-2-Project.git]
@@ -34,3 +37,7 @@ The objective of this assignment is to implement, evaluate, and deploy five dist
 | **Support Vector Machine** | Achieved the highest accuracy (97.37%), perfect precision (1.0000), and the highest MCC score (0.9442), demonstrating optimal margin separation on this dataset. |
 
 **Overall Winner:** **Support Vector Machine (SVM)** — It delivered the best overall balance of high accuracy, perfect precision, and the highest Matthews Correlation Coefficient (MCC of 0.9442).
+
+## e. **Streamlit Community cloud deployed App url:** [https://ml-assignment-2-project-m53byzdpwtvgmcxmhpt5nv.streamlit.app/]
+
+
