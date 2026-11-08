@@ -137,6 +137,6 @@ else:
     st.markdown("""
     ### Quick Instructions:
     1. Select your model from the sidebar dropdown.
-    2. Upload the `test_data.csv` file generated during your training pipeline.
+    2. Upload the `test_data.csv` file generated during training pipeline.
     3. View live computed metrics, confusion matrix, and classification reports instantly!
     """)
