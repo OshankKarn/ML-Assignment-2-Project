@@ -66,7 +66,7 @@ if uploaded_file is not None:
     st.success("Test dataset loaded successfully!")
     
     with st.expander("Preview Uploaded Test Data"):
-        st.dataframe(test_df.head())
+        st.dataframe(test_df)
         
     if 'target' not in test_df.columns:
         st.error("Uploaded CSV must contain the 'target' column.")
