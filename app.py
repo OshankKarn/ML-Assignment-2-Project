@@ -20,7 +20,21 @@ st.write("**BITS ID:** 2026ak05247")
 
 # Sidebar for controls
 st.sidebar.header("Configuration Panel")
+# --- ADD THE DOWNLOAD BUTTON HERE IN THE SIDEBAR ---
+st.sidebar.subheader("Evaluation Data")
+if os.path.exists("test_data.csv"):
+    with open("test_data.csv", "rb") as f:
+        st.sidebar.download_button(
+            label="📥 Download test_data.csv",
+            data=f,
+            file_name="test_data.csv",
+            mime="text/csv",
+            help="Click to download the test dataset required for evaluation."
+        )
+else:
+    st.sidebar.warning("test_data.csv not found in repository.")
 
+st.sidebar.markdown("---")
 # Model Selection Dropdown
 model_options = {
     "Logistic Regression": "logistic_regression.joblib",
