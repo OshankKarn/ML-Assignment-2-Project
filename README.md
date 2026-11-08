@@ -1,4 +1,6 @@
 # S1-26_AIMLZG565- Machine Learning Assignment 2
+- **Name:** Oshank Karn
+- **BITS ID:** 2026ak05247
 
 ## a. Problem Statement
 The objective of this assignment is to implement, evaluate, and deploy five distinct machine learning classification models (Logistic Regression, Decision Tree, KNN, Naive Bayes, and Support Vector Machine) using an end-to-end MLOps workflow, culminating in an interactive Streamlit web application hosted on Streamlit Community Cloud.
