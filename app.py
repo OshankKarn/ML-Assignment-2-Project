@@ -20,8 +20,8 @@ st.write("**BITS ID:** 2026ak05247")
 
 # Sidebar for controls
 st.sidebar.header("Configuration Panel")
-# --- ADD THE DOWNLOAD BUTTON HERE IN THE SIDEBAR ---
-st.sidebar.subheader("Evaluation Data")
+# Download Button For Test data 
+st.sidebar.subheader("Test Data")
 if os.path.exists("test_data.csv"):
     with open("test_data.csv", "rb") as f:
         st.sidebar.download_button(
