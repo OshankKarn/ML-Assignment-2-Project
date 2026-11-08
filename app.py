@@ -13,8 +13,10 @@ import seaborn as sns
 
 st.set_page_config(page_title="WILP M.Tech AIML - ML Assignment 2", layout="wide")
 
-st.title("M.Tech (AIML) - Machine Learning Assignment 2")
-st.write("**Name/ID:** [Your Name / WILP ID] | **Course:** Machine Learning")
+st.title("S1-26_AIMLZG565- Machine Learning Assignment 2")
+st.title("**Course:** Machine Learning")
+st.write("**Name/ID:** Oshank Karn")
+st.write("**BITS ID:** 2026ak05247")
 
 # Sidebar for controls
 st.sidebar.header("Configuration Panel")
