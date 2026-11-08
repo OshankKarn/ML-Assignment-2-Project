@@ -27,10 +27,10 @@ The objective of this assignment is to implement, evaluate, and deploy five dist
 
 | ML Model Name | Observation about model performance |
 | :--- | :--- |
-| **Logistic Regression** | Performed exceptionally well, achieving high accuracy (97.37%) and MCC. Linear decision boundaries effectively separate features after standard scaling. |
-| **Decision Tree** | Prone to minor overfitting compared to linear models, resulting in lower accuracy (92.98%) and MCC, though still highly interpretable. |
-| **KNN** | Strong performance (95.61% accuracy) due to distance-based neighbor clustering on standardized features, though slightly sensitive to feature scaling. |
-| **Naive Bayes** | Solid probabilistic baseline with high recall, but assumes feature independence which slightly limits overall accuracy (93.86%). |
-| **Support Vector Machine** | Achieved the highest AUC score (0.9934) and robust classification metrics, leveraging kernel separation effectively on scaled biomedical data. |
+| **Logistic Regression** | Showed exceptional ranking capability with an AUC of 0.9960 and strong overall accuracy (96.49%), benefiting from linear separability after scaling. |
+| **Decision Tree** | Exhibited lower overall performance metrics compared to ensemble and linear models, with a reduced AUC of 0.9246 and higher variance. |
+| **KNN** | Performed reliably well (95.61% accuracy) through distance-based neighborhoods, though recall was slightly lower than linear counterparts. |
+| **Naive Bayes** | Achieved perfect precision (1.0000), meaning zero false positives, but suffered from lower recall (0.8333) due to its strict feature independence assumptions. |
+| **Support Vector Machine** | Achieved the highest accuracy (97.37%), perfect precision (1.0000), and the highest MCC score (0.9442), demonstrating optimal margin separation on this dataset. |
 
-**Overall Winner:** **Support Vector Machine / Logistic Regression** (both achieved superior AUC and MCC scores on this feature space).
+**Overall Winner:** **Support Vector Machine (SVM)** — It delivered the best overall balance of high accuracy, perfect precision, and the highest Matthews Correlation Coefficient (MCC of 0.9442).
