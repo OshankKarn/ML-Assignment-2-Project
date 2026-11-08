@@ -11,17 +11,17 @@ The objective of this assignment is to implement, evaluate, and deploy five dist
 - **Features:** 30 numerical features computed from digitized images of fine needle aspirates (Exceeds minimum requirement of 12 features)
 
 ## c. GitHub Repository Link
-[Insert Your GitHub Repository URL Here]
+[https://github.com/OshankKarn/ML-Assignment-2-Project.git]
 
 ## d. Models Used & Evaluation Metrics Comparison Table
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Logistic Regression | 0.9737 | 0.9912 | 0.9722 | 0.9859 | 0.9790 | 0.9431 |
-| Decision Tree | 0.9298 | 0.9215 | 0.9420 | 0.9296 | 0.9358 | 0.8504 |
-| KNN | 0.9561 | 0.9868 | 0.9452 | 0.9859 | 0.9652 | 0.9038 |
-| Naive Bayes | 0.9386 | 0.9846 | 0.9459 | 0.9437 | 0.9448 | 0.8687 |
-| Support Vector Machine | 0.9649 | 0.9934 | 0.9589 | 0.9859 | 0.9722 | 0.9242 |
+| Logistic Regression | 0.9649 | 0.9960 | 0.9750 | 0.9286 | 0.9512 | 0.9245 |
+| Decision Tree | 0.9298 | 0.9246 | 0.9048 | 0.9048 | 0.9048 | 0.8492 |
+| KNN | 0.9561 | 0.9823 | 0.9744 | 0.9048 | 0.9383 | 0.9058 |
+| Naive Bayes | 0.9386 | 0.9934 | 1.0000 | 0.8333 | 0.9091 | 0.8715 |
+| Support Vector Machine | 0.9737 | 0.9947 | 1.0000 | 0.9286 | 0.9630 | 0.9442 |
 
 ### Observations on Model Performance
 
